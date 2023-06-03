@@ -1,0 +1,97 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{color:rgb(83, 46, 0);}
+/* main ul+li */
+.main_ul{
+    margin: 0 auto;
+    background-color: rgb(110, 83, 51);
+    width: 400px;height: 600px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 1px 12px 20px 1px rgb(199, 218, 30);
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main_li{
+    margin: 0 auto;
+    /* background-color: rgb(243, 227, 7); */
+    width: 90%;height: 31%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 3px solid rgba(255, 229, 85, 0.678);
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px blanchedalmond;
+}
+.main_li1{
+    background-image: url('image/달맞이봉공원.jpg');
+    background-size: cover;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+}
+.main_li2{
+    background-image: url('image/투샷1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+}
+.main_li > a{
+    /* background-color: aqua; */
+    margin-left: 10px;margin-top: 5px;
+    color: antiquewhite;
+}
+.main_nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding: 3px 0 3px 0;
+    background-color: rgb(110, 83, 51);
+    font-size: 1.2rem;
+    border-radius: 0 0 20px 20px;
+    
+}
+.nav_li{
+    background-color: rgba(240, 248, 255, 0.11);
+    border-radius: 50px;
+    height: 1.5rem;width: 100px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+.nav_li>a{
+    color: aliceblue;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* letter li */
+.letter{
+    overflow-y: scroll;
+    overflow-x: none;
+}
+.letter_li{
+    background-color: rgb(243, 227, 7);
+    width: 80%;
+    width: fit-content;
+    font-size: .8rem;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-left: 50px;
+    float: right;
+}
+.you_li{
+    float: left;
+    width: 80%;
+    margin-left: 10px;
+    background-color: rgb(236, 236, 226);
+    width: fit-content;
+    font-size: .8rem;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+}
+/* 겔러리 */
